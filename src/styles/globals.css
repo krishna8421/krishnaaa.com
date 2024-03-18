@@ -2,28 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .box {
-  @apply bg-white;
-  @apply text-gray-600;
-  @apply hover:text-gray-900;
-
-  @apply drop-shadow-md;
-  @apply hover:drop-shadow-2xl
-  ;
-  @apply border border-gray-200;
-  @apply hover:border-gray-300;
-
-  @apply ease-in-out delay-300 transition-all;
-
-  @apply hover:scale-110;
-
-  @apply cursor-pointer;
-
-  @apply px-4 py-8;
-  @apply rounded-lg;
-  @apply flex flex-col items-center gap-4;
-} */
-
 .box {
   @apply bg-white;
   @apply text-gray-600;

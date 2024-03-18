@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .box {
+  @apply bg-white;
+  @apply text-gray-600;
+  @apply hover:text-gray-900;
+
+  @apply drop-shadow-md;
+  @apply hover:drop-shadow-2xl
+  ;
+  @apply border border-gray-200;
+  @apply hover:border-gray-300;
+
+  @apply ease-in-out delay-300 transition-all;
+
+  @apply hover:scale-110;
+
+  @apply cursor-pointer;
+
+  @apply px-4 py-8;
+  @apply rounded-lg;
+  @apply flex flex-col items-center gap-4;
+} */
+
+.box {
+  @apply bg-white;
+  @apply text-gray-600;
+  @apply hover:text-gray-900;
+
+  @apply shadow-md; /* Using shadow instead of drop-shadow for a cleaner look */
+  @apply hover:shadow-lg;
+
+  @apply border border-gray-200;
+  @apply hover:border-gray-300;
+
+  @apply transition-all duration-300 ease-in-out; /* Combine all transitions for better control */
+
+  @apply hover:scale-110; /* Animate scale on hover */
+
+  @apply cursor-pointer;
+
+  /* Keep flex properties */
+  @apply flex flex-col items-center gap-4;
+
+  @apply px-4 py-8; /* Adjust padding for better proportions */
+  @apply rounded-md; /* Minor roundness adjustment */
+
+  /* New styles for aesthetics */
+  @apply text-center; /* Center text alignment */
+  @apply font-medium; /* Add some weight to the font */
+  @apply border-solid; /* Specify border style explicitly */
+}

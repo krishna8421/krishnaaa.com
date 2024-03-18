@@ -62,7 +62,11 @@ type IProp = Readonly<{
 export default function RootLayout({ children }: IProp) {
   return (
     <html lang="en">
-      <body className={`${loveYaLikeASister.className}`}>{children}</body>
+      <body className={`${loveYaLikeASister.className} antialiased`}>
+        <main className="max-w-3xl min-h-screen flex flex-col justify-between m-auto">
+          {children}
+        </main>
+      </body>
     </html>
   );
 }

@@ -1,11 +1,19 @@
-import CarSvg from "@/components/car-svg";
 import { LINKS_DATA } from "@/constants/index";
+import { Fragment } from "react";
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="max-w-3xl m-auto min-h-screen flex flex-col justify-between">
+    <Fragment>
       <nav className="flex flex-col gap-4 items-center pb-16 pt-8">
-        <CarSvg />
+        <Image
+          src="/car.png"
+          alt=""
+          width={25 * 9.2625}
+          height={25}
+          priority
+          quality={100}
+        />
         <h2 className="text-7xl text-gray-900 text-center">krishna kumar</h2>
         <p className="text-gray-700 text-center">
           full stack web developer
@@ -27,6 +35,6 @@ export default function Home() {
       <footer className="p-4 mt-8 text-center text-gray-700 text-sm sm:text-sm">
         ©2024 krishna kumar. all rights reserved.
       </footer>
-    </main>
+    </Fragment>
   );
 }

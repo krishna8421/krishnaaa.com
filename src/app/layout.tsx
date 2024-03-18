@@ -21,7 +21,7 @@ export default function RootLayout({ children }: IProp) {
   return (
     <html lang="en">
       <body className={`${loveYaLikeASister.className}`}>
-          {children}
+        {children}
       </body>
     </html>
   );

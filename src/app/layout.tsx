@@ -20,6 +20,7 @@ const ogImage = "/og.png";
 const twitterImage = "/twitter-og.png";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: SITE_NAME,
   description: SITE_DESCRIPTION,
   keywords: SITE_KEYWORDS,

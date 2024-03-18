@@ -17,6 +17,39 @@ import { CgNotes } from "react-icons/cg";
 export const SITE_NAME = "Krishna Kumar";
 export const SITE_DESCRIPTION =
   "Krishna Kumar's Index Page. This is a simple page to showcase all my work and projects.";
+export const SITE_URL = "https://krishnaaa.com";
+export const SITE_KEYWORDS = [
+  "Krishna Kumar",
+  "Krishna Kumar Lal",
+  "Developer",
+  "Full Stack Developer",
+  "Frontend Developer",
+  "Node",
+  "TypeScript",
+  "JavaScript",
+  "Python",
+  "AWS",
+  "GCP",
+  "Google Cloud",
+  "Amazon Web Services",
+  "Cloud",
+  "DevOps",
+  "Go",
+  "Golang",
+  "Backend Developer",
+  "Software Engineer",
+  "kiit",
+  "Patna",
+  "Bihar",
+  "Software Developer",
+  "Web Developer",
+  "React",
+  "Django",
+  "KIIT",
+  "Gyan Niketan",
+];
+export const COUNTRY_NAME = "INDIA";
+export const TWITTER_URL = "@krishnaaa8421";
 
 export const LINKS_DATA = [
   {

@@ -96,14 +96,14 @@ export const LINKS_DATA = [
   },
   {
     name: "Scripts",
-    url: "scripts.krishnaaa.com",
+    url: "https://scripts.krishnaaa.com",
     description:
       "Site for my scripts. It contains some useful scripts that can come in handy.",
     icon: <AiFillCode size={24} />,
   },
   {
     name: "LOL",
-    url: "lol.krishnaaa.com",
+    url: "https://lol.krishnaaa.com",
     description: "LOL",
     icon: <TfiThemifyFaviconAlt size={24} />,
   },
